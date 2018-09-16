@@ -2,25 +2,27 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+
+// NOTE: More elements in this component. Check it out.
 import Additional from '../components/Additional'
 
-import banner from "images/banner.jpg"
-import spotlight01 from "images/spotlight01.jpg"
-import spotlight02 from "images/spotlight02.jpg"
-import spotlight03 from "images/spotlight03.jpg"
+import banner from "../images/banner.jpg"
+import spotlight01 from "../images/spotlight01.jpg"
+import spotlight02 from "../images/spotlight02.jpg"
+import spotlight03 from "../images/spotlight03.jpg"
 
-import thumbs01 from "images/gallery/thumbs/01.jpg"
-import thumbs02 from "images/gallery/thumbs/02.jpg"
-import thumbs03 from "images/gallery/thumbs/03.jpg"
-import thumbs04 from "images/gallery/thumbs/04.jpg"
-import thumbs05 from "images/gallery/thumbs/05.jpg"
-import thumbs06 from "images/gallery/thumbs/06.jpg"
-import thumbs07 from "images/gallery/thumbs/07.jpg"
-import thumbs08 from "images/gallery/thumbs/08.jpg"
-import thumbs09 from "images/gallery/thumbs/09.jpg"
-import thumbs10 from "images/gallery/thumbs/10.jpg"
-import thumbs11 from "images/gallery/thumbs/11.jpg"
-import thumbs12 from "images/gallery/thumbs/12.jpg"
+import thumbs01 from "../images/gallery/thumbs/01.jpg"
+import thumbs02 from "../images/gallery/thumbs/02.jpg"
+import thumbs03 from "../images/gallery/thumbs/03.jpg"
+import thumbs04 from "../images/gallery/thumbs/04.jpg"
+import thumbs05 from "../images/gallery/thumbs/05.jpg"
+import thumbs06 from "../images/gallery/thumbs/06.jpg"
+import thumbs07 from "../images/gallery/thumbs/07.jpg"
+import thumbs08 from "../images/gallery/thumbs/08.jpg"
+import thumbs09 from "../images/gallery/thumbs/09.jpg"
+import thumbs10 from "../images/gallery/thumbs/10.jpg"
+import thumbs11 from "../images/gallery/thumbs/11.jpg"
+import thumbs12 from "../images/gallery/thumbs/12.jpg"
 
 import "../sass/main.scss"
 
@@ -156,8 +158,8 @@ const IndexPage = () => (
 						</div>
 					</section>
 
-          {/*  */}
-          <Additional />
+          {/* NOTE: Check this components for more elements in ui library */}
+          {/* <Additional /> */}
 
 
 				{/* <!-- Footer --> */}
