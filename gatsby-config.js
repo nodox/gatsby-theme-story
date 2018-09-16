@@ -17,9 +17,10 @@ var sitePlugins = [
   'gatsby-plugin-offline',
 ]
 
-gtk.loadPlugins().forEach(plugin => {
-  sitePlugins.push(plugin)
-})
+// FIXME: Disabled for demo purpose. Want a way to not make this intrusive.
+// gtk.loadPlugins().forEach(plugin => {
+//   sitePlugins.push(plugin)
+// })
 
 module.exports = {
   pathPrefix: process.env.CI ? `/story` : `/`,
